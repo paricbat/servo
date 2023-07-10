@@ -138,6 +138,9 @@ For more details about overriding dependencies, see [Cargo's documentation](http
 
 ### Visual Studio Code
 
+Before doing anything, make sure that `rust-analyzer` is installed for the current toolchain by
+running `rustup component add rust-analyzer` in the project root.
+
 Running plain `cargo` will cause problems! For example, you might get rust-analyzer extension errors
 about build scripts like
 
